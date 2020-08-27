@@ -1,0 +1,142 @@
+
+20% COMPLETE
+Introduction
+ 
+ Introduction (4:38)
+ 
+ The Kubernetes Trilogy (4:33)
+ 
+ Download Presentation Deck
+Kubernetes Overview
+ 
+ Containers Overview (13:58)
+ 
+ Container Orchestration (3:20)
+ 
+ Kubernetes Architecture (6:29)
+ 
+ Labs: Familiarize with Lab Environment
+ 
+ Feedback
+Setup Kubernetes
+ 
+ Kubernetes Setup - Introduction and Minikube (5:47)
+ 
+ Demo - Minikube-Setup (15:27)
+ 
+ Reference
+ 
+ Join our Community
+Kubernetes Concepts
+ 
+ PODs (9:09)
+ 
+ Demo - PODs (4:19)
+ 
+ A note about creating Pods
+YAML Introduction
+ 
+ Introduction to YAML (8:25)
+ 
+ Labs on YAML
+Kubernetes Concepts - PODs, ReplicaSets, Deployments
+ 
+ PODs with YAML (7:00)
+ 
+ Demo - PODs with YAML (6:17)
+ 
+ Demo - YAML - Tips (17:39)
+ 
+ Labs: PODs with YAML
+ 
+ Lab Solution (11:15)
+ 
+ Replication Controllers and ReplicaSets (16:03)
+ 
+ Demo - ReplicaSets (13:43)
+ 
+ Labs: Replica Sets
+ 
+ Lab Solution (26:14)
+ 
+ Deployments (4:32)
+ 
+ Demo: Deployments (4:29)
+ 
+ Labs: Deployments
+ 
+ Deployments - Update and Rollback (7:42)
+ 
+ Demo - Deployments - Update and Rollback (14:35)
+ 
+ Feedback
+Networking in Kubernetes
+ 
+ Basics of Networking in Kubernetes (11:51)
+Services
+ 
+ Services - NodePort (13:57)
+ 
+ Demo - Services (4:59)
+ 
+ Services - ClusterIP (3:59)
+ 
+ Services - Load balancer (3:41)
+ 
+ Labs: Services
+Microservices Architecture
+ 
+ Microservices Architecture (7:33)
+ 
+ Deploying voting app on Kubernetes (8:38)
+ 
+ Demo - Deploying voting app on Kubernetes (20:46)
+ 
+ Demo - Deploying voting app on Kubernetes with Deployments (10:02)
+Kubernetes on the Cloud
+ 
+ Section Introduction (3:27)
+ 
+ Kubernetes on GCP (GKE) (8:23)
+ 
+ Kubernetes on AWS (EKS) (9:56)
+ 
+ Kubernetes on Azure (AKS) (6:40)
+Conclusion
+ 
+ Conclusion (1:15)
+ 
+ Feedback
+Appendix
+ 
+ Appendix
+ 
+ Kubernetes Setup - Kubeadm (5:04)
+ 
+ Demo - Setup Lab - Virtual Box (12:56)
+ 
+ Reference
+ 
+ Demo - Kubeadm - Part 1 - Setup Virtual Machines and Pre-requisites (23:30)
+ 
+ Demo - Kubeadm - Part 2 - Configure Cluster with kubeadm (14:08)
+ 
+ Reference - Google Cloud Platform
+The upcoming demo is completely optional, unless you want to setup a local environment on your laptop. Our hands-on labs will be sufficient for you to practice.
+
+
+
+Some links used in the upcoming demo may have changed. Please find the latest links to the documentation topics below:
+
+Install MiniKube: https://kubernetes.io/docs/tasks/tools/install-minikube/
+
+VirtualBox: https://www.virtualbox.org/wiki/Downloads
+
+MiniKube Download page for Windows: https://github.com/kubernetes/minikube/releases
+
+
+
+While using Minikube with Virtualization technologies other than virtualbox, specify the --vm-driver option like this:
+
+minikube start --vm-driver=<driver_name>
+More about it here: https://kubernetes.io/docs/setup/learning-environment/minikube/#specifying-the-vm-driver

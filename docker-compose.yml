@@ -1,0 +1,12 @@
+version: "2"
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=password
+  wordpress:
+    image: wordpress
+    ports:
+      - "8085:80"
+    depends_on:
+      - db

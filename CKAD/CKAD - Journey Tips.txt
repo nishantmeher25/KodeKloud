@@ -1,0 +1,3 @@
+https://medium.com/@harioverhere/ckad-certified-kubernetes-application-developer-my-journey-3afb0901014
+
+https://livebook.manning.com/book/kubernetes-in-action-second-edition/welcome/v-4/1

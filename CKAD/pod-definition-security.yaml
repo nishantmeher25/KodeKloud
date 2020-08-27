@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ubuntu-sleeper
+  labels:
+    name: ubuntu-sleeper
+spec:
+  securityContext:
+    runAsUser: 1010
+  containers:
+    - name: ubuntu-sleeper
+      image: ubuntu
+      command: ["sleep", "5000"]
